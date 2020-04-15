@@ -14,6 +14,30 @@ Preferred:
 * OWASP Top 10
 * Coding skills (Python, Bash, etc)
 
+
+
 -----------------------------------------------------
+Networking
+-----------------------------------------------------
+* IP Addresses
+* MAC Addresses
+* TCP, UDP, and the Three-Way Handshake
+* Common Ports and Protocols
+* The OSI Model
+* Subnetting
+
+
+
+-----------------------------------------------------
+Comandos de Red
+-----------------------------------------------------
+* ifconfig
+* iwconfig
+* ping
+* arp -a 
+* netstat
+* route
+
+
 
 

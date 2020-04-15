@@ -1,2 +1,186 @@
 # listado de un directorio
 ls -la 
+
+# listado compacto
+ll
+
+# listado ordenado por fecha
+ls -lha
+
+# listado ordenado por fecha decreciente
+ls -lhat
+
+# volver al ultimo directorio de trabajo 
+cd -
+
+# volver al directorio home del usuario
+cd 
+
+# ejecutar varios comandos en una sola linea
+comando ; comando ; comando
+
+# ejecutar varios comandos en una sola linea, pero solo si el anterior ha tenido exito
+comando1 && comando2 && comando3
+
+# buscar en el historico de comandos
+crtl+r <comando a buscar>
+
+# movernos al principio y final de la linea
+ctrl+a principio
+ctrl+e final
+
+# analizar los logs de una aplicacion mientras esta corriendo
+tail -f path_to_log
+
+# visualizar el contenido de un fichero
+cat pat_to_file
+less pat_to_file # mejor opcion esta que permite paginar los resultados
+
+# usar como argumento el ultimo comando utilizado
+ls tools
+cd !$
+
+# reutilizar el comando anterior en el actual comando
+apt install vlc
+sudo !!
+
+# dejar el contenido de un fichero vacio sin borrarlo
+> filename
+
+# Buscar si un texto se encuentra en algun fichero
+grep -Pri texto_buscar path_to_directory
+
+# buscar una cadena en un fichero, sin tener en cuenta mayñusculas y minúsculas
+grep -i "texto" fichero
+
+# buscar y mostrar las 3 lineas siguientes al texto encontrado
+grep -A 3 -i "example" demo_text
+
+# buscar el texto recursivamente en todos los ficheros
+grep -r "ramesh" *
+
+# buscar fichero con el nombre deseado
+find -iname "MyCProgram.c"
+
+# ejecutar un comando sobre el fichero encontrado
+find -iname "MyCProgram.c" -exec md5sum {} \;
+
+# buscar ficheros vacios en el directorio actual
+find ~ -empty
+
+# Ver pagina web en terminal linux
+links www.tecmint.com
+
+# Para bajar videos de youtube
+youtube-dl https://www.youtube.com/watch?v=ql4SEy_4xws
+
+# descargar ficheros de internet
+curl http://some.url --output some.file
+
+# crear un archivo tar
+tar cvf nombre.tar directorio/
+
+# extraer un archivo tar 
+tar xvf archivo.tar
+
+# ver el conternido de un archivo tar
+tar tvf arhivo.tar
+
+# convertir caracteres windows a linux dentro de un fichero
+sed 's/.$//' filename
+
+# compara ignorando espacios en blanco
+diff -w name_list.txt name_list_new.txt
+
+# ordena un fichero ascendentemente
+sort names.txt
+
+# ordena un fichero descendentemente
+sort -r names.txt
+
+# ordena el fichero por el tercer campo
+sort -t: -k 3n /etc/passwd | more
+
+# download all the URLs mentioned in the url-list.txt file
+cat url-list.txt | xargs wget –c
+
+# ver el estado de un servicio
+service ssh status
+
+# ver el estado de todos los servicios
+service --status-all
+
+# para los procesos que estan corriendo
+ps -ef | more
+
+# para los procesos que estan corriendo de forma jerárquica
+ps -efH | more
+
+# para ver la memoria consumida
+free -t
+
+# ver los procesos que estan corriendo
+top
+
+# ver uso de disco
+df 
+
+# borrar, copiar, mover
+rm , cp, mv, mkdir, chmod, chown, passwd
+
+# informacion del tiempo que lleva encendida la maquina
+uname -a 
+
+# localizar comandos y ejecutables
+whereis, whatis, locate
+
+# imprime las ultimas 10 lineas del fichero
+tail filename.txt
+
+# imprime las ultimas N numero de lineas del fichero filename.txt
+tail -n N filename.txt
+
+# ping a un hos con solo 5 paquetes
+ping -c 5 gmail.com
+
+# listado de los puertos usados en la maquina donde se ejecuta el comando 
+netstat -a | more
+
+# listado de todos los puertos tcp
+netstat -at
+
+# listado de todos los puertos udp
+netstat -au
+
+# listado de todos los puertos que estan escuchando
+netstat -l
+
+# muestra estadisticas para todos los puertos 
+netstat -s
+
+# lista los puertos y el proceso que esta corriendo el proceso ssh
+netstat -ap | grep ssh
+
+#lista todas las interfaces
+netstat -i
+
+# listado de todos los modulos cargados en el kernel
+lsmod | less
+
+# ver las reglas cargadas de iptables
+iptables --list
+
+# borrar todas las reglas de iptables
+iptables --flush
+
+# borrar solo las reglas de salida de iptables
+iptables --flush OUTPUT
+
+# rotar los logs
+https://www.thegeekstuff.com/2010/07/logrotate-examples/
+
+
+
+
+
+

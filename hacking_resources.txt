@@ -1,0 +1,19 @@
+-----------------------------------------------------
+Technical Skills Needed
+-----------------------------------------------------
+Base:
+* Linux (Prefeably Kali/Parrot)
+* Networking (OSI Model, Protocols, etc)
+* Scripting skills (Python, Bash, etc)
+* Solid hacking methodology
+Tool familiarity (Metasploit, Burp Suite, Nessus, etc)
+
+Preferred:
+* Active Directory
+* Wireless Attacks
+* OWASP Top 10
+* Coding skills (Python, Bash, etc)
+
+-----------------------------------------------------
+
+

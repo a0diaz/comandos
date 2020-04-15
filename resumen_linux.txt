@@ -1,0 +1,2 @@
+# listado de un directorio
+ls -la 

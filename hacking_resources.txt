@@ -38,6 +38,13 @@ Comandos de Red
 * netstat
 * route
 
+-----------------------------------------------------
+Identificando
+-----------------------------------------------------
+* Buscar emails con la herramienta http://hunter.io
+
+
+
 
 
 

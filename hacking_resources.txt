@@ -42,9 +42,37 @@ Comandos de Red
 Identificando
 -----------------------------------------------------
 * Buscar emails con la herramienta http://hunter.io
+* Tipos de reconocimiento pasivo:
+  - phisical 
+  - social
+* Herramientas
+  - theharvester: Sirve para recoger informacion
+  - sublis3r: es de consola y hay que instalarlo, sirve para recoger informacion de un dominio, cuales son los subdominios
+  - https://crt.sh : Sirve también para recoger información deun dominio, cuales son los subdominios
+  - owasp amass: herramienta de github.
+  - tomnomnom httpprobe: herramienta de github
+  - builtwith: Pagina web que te sirve para ver con qué herramienta esta realizado un sitio web
+  - wappalyzer firefox addons
+  - whatweb: herramienta de consola
+  - herramienta burp suite
+  - google: "google search syntax"
+    * buscar un un sitio web: site:elmundo.es lo que sea
+    * buscar por red social: @twitter lo que sea
+    * buscar por precio: escribe $ delante del precio, ej: camara $400
+    * buscar por hashtag: escribe # delante de una palabra
+    * excluir palabras de busqueda: escribe "-" delante de la palabra
+    * buscar una coincidencia exanta: encierra entre comillas
+    * Mas operaores: source, intext, allintext, intitle, allintitle, inurl, allinurl, filetype, related, 
+    
+-----------------------------------------------------
+Escaneo y Enumeracion
+-----------------------------------------------------
+* netdiscover -r 192.168.57.0/24
 
-
-
+  
+  
+  
+  
 
 
 

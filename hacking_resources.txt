@@ -73,6 +73,33 @@ Escaneo y Enumeracion
   
   
   
+  
+ - snort es una programa de detección de intrusiones en la red
+  
+  
+-----------------------------------------------------
+Herramientas y Apuntes de Meetup
+-----------------------------------------------------
+- Nmap : en github hay scripts para poder utilizar
+- Metasploit framework
+- Ethercap
+- Bettercap
+- SQLMap
+- Router Exploit
+- OpenVAS
+- Exploit Pack
+- Autosploit: hay docker de esto
+- Killo.io
+- Dante Gates
+- Eo-Ripper.py
+
+* Analisis Forense en entornos Windows
+  - Herramientas de Nirsoft
+  - Autopsy
+  - Process Hacker
+  - RootKit: modifica una programa o carpeta para que no aparezca en el sistema
+  - Poner Pen Drive en solo lectura para las utilidades
+  
 
 
 

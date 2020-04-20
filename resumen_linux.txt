@@ -179,6 +179,11 @@ iptables --flush OUTPUT
 # rotar los logs
 https://www.thegeekstuff.com/2010/07/logrotate-examples/
 
+# ver que proceso esta corriendo en un puerto. NOs devuelve el PID del proceso
+fuser -n tcp 25
+
+# identificar el proceso en cuestión, siendo 945 el PID del proceso
+ps aux | grep 945
 
 
 

@@ -185,6 +185,18 @@ fuser -n tcp 25
 # identificar el proceso en cuestión, siendo 945 el PID del proceso
 ps aux | grep 945
 
+# generar el md5 de una cadena de texto
+echo -n "cadena de texto" | md5sum 
+
+# generar y verificar un hash md5 de uno o mas archvivos
+md5sum archivo.txt
+
+# generar el hash md5 de un archivo y guardarlo en un arhivo de texto
+md5sum archivo.iso > archivo.iso.md5
+
+# verificar un o mas hashs md5 guardados en un arvhivo de texto
+md5sum -c archivo.iso.md5
+
 
 
 

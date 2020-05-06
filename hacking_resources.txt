@@ -48,7 +48,7 @@ Identificando
 * Herramientas
   - theharvester: Sirve para recoger informacion
   - sublis3r: es de consola y hay que instalarlo, sirve para recoger informacion de un dominio, cuales son los subdominios
-  - https://crt.sh : Sirve también para recoger información deun dominio, cuales son los subdominios
+  - https://crt.sh : Sirve también para recoger información de un dominio, cuales son los subdominios
   - owasp amass: herramienta de github.
   - tomnomnom httpprobe: herramienta de github
   - builtwith: Pagina web que te sirve para ver con qué herramienta esta realizado un sitio web
@@ -68,6 +68,13 @@ Identificando
 Escaneo y Enumeracion
 -----------------------------------------------------
 * netdiscover -r 192.168.57.0/24
+* nmap -T4 -p- -A : 
+  -T4 es para tener mas velocidad
+  -p- es para escanear todos los puertos
+  -A es para informacion sobre version del software que tenga instalado
+* nikto: escaner de vulnerabilidades web por consola
+* gobuster: otra herramienta de escaner de vulnerabilidades
+* dirbuster: otra herramienta de escaner de vulnerabilidades
 
   
   

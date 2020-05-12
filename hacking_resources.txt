@@ -16,6 +16,10 @@ Preferred:
 
 
 
+
+
+
+
 -----------------------------------------------------
 Networking
 -----------------------------------------------------
@@ -28,6 +32,9 @@ Networking
 
 
 
+
+
+
 -----------------------------------------------------
 Comandos de Red
 -----------------------------------------------------
@@ -37,6 +44,32 @@ Comandos de Red
 * arp -a 
 * netstat
 * route
+
+
+
+-----------------------------------------------------
+Editores de Notas
+-----------------------------------------------------
+* keepnote
+* cherrytree
+* onenote
+* joplin
+
+-----------------------------------------------------
+Rango de Direcciones IP
+-----------------------------------------------------
+Privado
+A 10.0.0.0 - 10.255.255.255
+B 172.16.0.0 - 172.31.255.255
+C 192.168.0.0 - 192.168.255.255
+
+Publico
+A 0.0.0.0 - 126.255.255.255
+B 128.0.0.0 - 191.255.255.255
+C 192.0.0.0 - 223.255.255.255
+D 224.0.0.0 - 239.255.255.255
+E 240.0.0.0 - 254.255.255.255
+
 
 -----------------------------------------------------
 Identificando
@@ -78,17 +111,24 @@ Escaneo y Enumeracion
 * msfconsole: metasploits por consola, analisis de vulnerabilidades, escaneo de puertos.
 * searchsploit: base de datos para buscar vulnerabilidades
 * scanning with masscan: de github
-* nessus: escaneo 
+* nessus: escneo de vulnerabilidades en sistemas operativos 
 
   
   
   
   
-  
+
+
+
+
+
+
+
+
+
+
  - snort es una programa de detección de intrusiones en la red
-  
-  
------------------------------------------------------
+----------------------------------------------------
 Herramientas y Apuntes de Meetup
 -----------------------------------------------------
 - Nmap : en github hay scripts para poder utilizar

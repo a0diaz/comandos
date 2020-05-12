@@ -47,6 +47,9 @@ Comandos de Red
 
 
 
+
+
+
 -----------------------------------------------------
 Editores de Notas
 -----------------------------------------------------
@@ -90,6 +93,18 @@ Protocolos UDP
 - dhcp 67,68
 - tftp 69
 - snmp 161
+
+-----------------------------------------------------
+Modelo OSI
+-----------------------------------------------------
+1 Phisical - data cables, cat6 
+2 Data - Switching, MAC addresses
+3 Network - IP addresses, routing
+4 Transport - Tcp/Udp
+5 Session - session management
+6 Presentation - JPG, MOV
+7 Application - Http, smtp
+
 
 
 -----------------------------------------------------

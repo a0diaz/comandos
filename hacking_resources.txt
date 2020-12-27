@@ -148,7 +148,7 @@ Escaneo y Enumeracion
 * searchsploit: base de datos para buscar vulnerabilidades
 * scanning with masscan: de github
 * nessus: escneo de vulnerabilidades en sistemas operativos 
-
+* hping3 y slowloris : Ataques de denegación de servicio.
   
   
   
